@@ -106,3 +106,9 @@ input.searchbar {
     font-size: 18px;
     margin-top: 0;
 }
+
+
+div.nav {
+    background-color: #00008b;
+    font-size: 18px;
+}
