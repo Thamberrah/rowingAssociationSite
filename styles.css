@@ -1,24 +1,22 @@
-body {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-div.topnav {
-    margin-top: 5px;
-}
 
 div.logo {
     float: left;
-    width: 25%;
+    width: 50%;
 }
 img.logo {
     padding-left: 20px;
 }
 
-div.sign {
+div.navi-container {
     float: left;
-    width: 25%;
+    width: 50%;
+    display: flex;
 }
 button.sign {
     width: 170px;
@@ -91,21 +89,13 @@ button.signup {
     width: 40%;
 }
 
-
-div.searchbar {
-    float: left;
-    width: 25%;
-    height: 42px;
+div.signup, div.searchbar, div.socials {
+    flex: 1;
 }
+
 input.searchbar {
     width: 400px;
     height: 36px;
     font-size: 18px;
     margin-top: 0;
-}
-
-div.socials {
-    float: left;
-    width: 25%;
-    height: 42px;
 }
