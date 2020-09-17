@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+div.topnav {
+    margin-top: 5px;
+}
 
 div.logo {
     float: left;
@@ -17,6 +20,10 @@ div.navi-container {
     float: left;
     width: 50%;
     display: flex;
+}
+
+div.signup {
+    margin-left: 150px;
 }
 button.sign {
     width: 170px;
@@ -89,13 +96,13 @@ button.signup {
     width: 40%;
 }
 
-div.signup, div.searchbar, div.socials {
-    flex: 1;
+div.searchbar {
+    margin-left: 20px;
+    margin-right: 20px;
 }
-
 input.searchbar {
     width: 400px;
-    height: 36px;
+    height: 42px;
     font-size: 18px;
     margin-top: 0;
 }
