@@ -23,7 +23,7 @@ div.navi-container {
 }
 
 div.signup {
-    margin-left: 150px;
+    margin-left: 143px;
 }
 button.sign {
     width: 170px;
@@ -149,7 +149,7 @@ img.team {
 
 
 div.locations {
-    margin-top: 15px;
+    margin-top: 40px;
 }
 div.slides p {
     margin: 0;
@@ -195,4 +195,35 @@ div.slides p {
     justify-content: center;
     align-items: center;
     font-size: 100px;
+}
+
+
+div.news {
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 98%;
+    height: 400px;
+    font-size: 23px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+div.clubs {
+    float: left;
+    width: 33.33%;
+}
+.clubs img, .regatta img, .rowathon img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.clubs p, .rowathon p, .regatta p {
+    text-align: center;
+}
+div.regatta {
+    float: left;
+    width: 33.33%;
+}
+div.rowathon {
+    float: left;
+    width: 33.33%;
 }
