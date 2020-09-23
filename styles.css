@@ -282,7 +282,6 @@ div.leftcontent {
     padding-left: 3px;
     justify-content: space-around;
 }
-
 div.rightcontent {
     float: left;
     width: 50%;
@@ -294,4 +293,7 @@ a {
     text-decoration: none;
     list-style: none;
     color: white !important;
+}
+.leftcontent p, .rightcontent p {
+    margin-bottom: 2px;
 }
