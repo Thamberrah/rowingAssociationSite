@@ -108,7 +108,35 @@ input.searchbar {
 }
 
 
-div.nav {
+div.navbar {
+    display: flex;
+    align-items: center;
     background-color: #00008b;
-    font-size: 18px;
+    color: white;
+    width: 98%;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+nav {
+    flex: 1;
+    text-align: left;
+}
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+    justify-content: space-around;
+}
+ul li {
+    display: inline-block;
+    padding: 10px 1px 10px 10px;
+    width: 150px;
+    color: white;
+}
+
+.navi {
+    cursor: pointer;
+}
+ul li:hover {
+    background-color: red;
 }
