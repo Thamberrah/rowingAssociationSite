@@ -147,3 +147,52 @@ img.team {
     margin-top: 5px;
 }
 
+
+div.locations {
+    margin-top: 15px;
+}
+div.slides p {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 600;
+}
+.slider {
+    width: 98%;
+    margin-left: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+.slides {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+}
+.slides::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+.slides::-webkit-scrollbar-thumb {
+    background: #666;
+    border-radius: 10px;
+}
+.slides::-webkit-scrollbar-track {
+    background: transparent;
+}
+.slides > div {
+    scroll-snap-align: start;
+    flex-shrink: 0;
+    width: 200px;
+    height: 220px;
+    margin-right: 50px;
+    border-radius: 5px;
+    background: #eee;
+    transform-origin: center center;
+    transform: scale(1);
+    transition: transform 0.5s;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
