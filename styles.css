@@ -140,3 +140,10 @@ ul li {
 ul li:hover {
     background-color: red;
 }
+
+
+img.team {
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
