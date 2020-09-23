@@ -8,6 +8,12 @@ div.topnav {
     margin-top: 5px;
 }
 
+a:-webkit-any-link {
+    cursor: pointer;
+    color: -webkit-link;
+    text-decoration: none;
+}
+
 div.logo {
     float: left;
     width: 50%;
@@ -226,4 +232,34 @@ div.regatta {
 div.rowathon {
     float: left;
     width: 33.33%;
+}
+
+
+div.story {
+    width: 98%;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+div.subheading p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: sans-serif;
+}
+div.desc {
+    float: left;
+    width: 67%;
+    font-size: 20px;
+    font-weight: 400;
+    padding-right: 20px;
+    padding-top: 10px;
+    font-family: sans-serif;
+    line-height: 135%;
+}
+div.elder {
+    float: left;
+    width: 33%;
+    padding-top: 10px;
+    padding-left: 5px;
 }
