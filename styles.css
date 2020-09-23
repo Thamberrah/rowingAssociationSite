@@ -209,9 +209,7 @@ div.news {
     margin-left: 20px;
     width: 98%;
     height: 400px;
-    font-size: 23px;
-    font-weight: 600;
-    font-family: sans-serif;
+
 }
 div.clubs {
     float: left;
@@ -224,6 +222,11 @@ div.clubs {
 }
 .clubs p, .rowathon p, .regatta p {
     text-align: center;
+    padding-left: 11px;
+    padding-right: 11px;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: sans-serif;
 }
 div.regatta {
     float: left;
@@ -239,6 +242,7 @@ div.story {
     width: 98%;
     margin-left: 20px;
     margin-top: 40px;
+    height: 400px;
 }
 div.subheading p {
     margin-top: 0;
@@ -247,10 +251,10 @@ div.subheading p {
     font-weight: 800;
     font-family: sans-serif;
 }
-div.desc {
+div.desc p {
     float: left;
     width: 67%;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 400;
     padding-right: 20px;
     padding-top: 10px;
@@ -261,5 +265,33 @@ div.elder {
     float: left;
     width: 33%;
     padding-top: 10px;
-    padding-left: 5px;
+}
+
+
+div.footer {
+    width: 98%;
+    height: 60px;
+    margin-left: 20px;
+    background-color: #00008b;
+    margin-top: 5px;
+}
+div.leftcontent {
+    float: left;
+    width: 50%;
+    text-align: left;
+    padding-left: 3px;
+    justify-content: space-around;
+}
+
+div.rightcontent {
+    float: left;
+    width: 50%;
+    text-align: right;
+    padding-right: 3px;
+    justify-content: space-around;
+}
+a {
+    text-decoration: none;
+    list-style: none;
+    color: white !important;
 }
