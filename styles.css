@@ -377,6 +377,7 @@ div.img h1 {
     transform: translate(-50%, -50%);
     color: white;
     font-size: 42px;
+    z-index: 1;
 }
 div.img p {
     text-align: left;
@@ -389,28 +390,61 @@ div.img p {
 /*************************************************************/
 /********************* Boxes SECTION ************************/
 /***********************************************************/
-div.active {
-    margin-left: 20px;
+div.boxes {
+    margin-top: 15px;
+    overflow: hidden;
+    font-family: sans-serif;
 }
-/*****************************************************/
-/********************* ROW 1 ************************/
-/***************************************************/
+.row1 img, .row2 img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+div.boxes h1 {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+div.boxes p {
+    line-height: 130%;
+    width: 800px;
+    font-size: 16px;
+    font-weight: 200;
+}
+div.row1 {
+    margin-bottom: 25px;
+}
+div.row1, div.row2 {
+    overflow: hidden;
+}
+
 div.camp {
     float: left;
     width: 50%;
+    padding-left: 20px;
+}
+div.camp h1, div.camp p {
+    padding-left: 66px;
 }
 div.sport {
     float: left;
     width: 50%;
 }
-/*****************************************************/
-/********************* ROW 2 ************************/
-/***************************************************/
-div.female {
+div.sport h1, div.sport p {
+    padding-left: 75px;
+}
+div.women {
     float: left;
     width: 50%;
+    padding-left: 20px;
+}
+div.women h1, div.women p {
+    padding-left: 67px;
 }
 div.compete {
     float: left;
     width: 50%;
+}
+div.compete h1, div.compete p {
+    padding-left: 75px;
 }
