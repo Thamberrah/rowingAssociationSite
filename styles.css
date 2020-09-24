@@ -11,6 +11,7 @@
 
 div.topnav {
     margin-top: 5px;
+    overflow: hidden;
 }
 
 a:-webkit-any-link {
@@ -302,7 +303,6 @@ div.story {
     width: 98%;
     margin-left: 20px;
     margin-top: 40px;
-    height: 400px;
 }
 div.subheading p {
     margin-top: 0;
@@ -311,7 +311,10 @@ div.subheading p {
     font-weight: 800;
     font-family: sans-serif;
 }
-div.desc p {
+div.stori {
+    overflow: hidden;
+}
+div.desc {
     float: left;
     width: 67%;
     font-size: 22px;
@@ -320,11 +323,13 @@ div.desc p {
     padding-top: 10px;
     font-family: sans-serif;
     line-height: 135%;
+    height: 100%;
 }
 div.elder {
     float: left;
     width: 33%;
     padding-top: 10px;
+    height: 100%;
 }
 
 
@@ -466,4 +471,32 @@ div.img h1 {
     color: white;
     font-size: 42px;
     z-index: 1;
+}
+
+
+
+
+
+
+
+/*********************************************************************/
+/********************* Media Queries SECTION ************************/
+/*******************************************************************/
+@media only screen and (max-width: 1500px) {
+    div.signup {
+    margin-left: 0;
+    }
+    div.searchbar {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    input.searchbar {
+        width: 320px;
+    }
+
+    div.desc p {
+        font-size: 16px;
+    }
+
+
 }
