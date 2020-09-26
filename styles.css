@@ -486,6 +486,7 @@ div.cimg p {
 div.specials {
     margin-left: 20px;
     margin-top: 15px;
+    overflow: hidden;
 }
 div.special1 {
     float: left;
