@@ -340,7 +340,7 @@ div.footer {
     width: 100%;
     height: 60px;
     background-color: #00008b;
-    margin-top: 5px;
+    margin-top: 20px;
 }
 div.leftcontent {
     float: left;
@@ -501,6 +501,57 @@ div.special3 {
     width: 25%;
 }
 div.special4 {
+    float: left;
+    width: 25%;
+}
+
+/**************************************************************************/
+/****************************** NEWS PAGE SECTION ************************/
+/************************************************************************/
+div.rowy1, div.rowy2 {
+    overflow: hidden;
+    padding-left: 20px;
+}
+div.rowy1 p, div.rowy2 p {
+    width: 90%;
+}
+div.rowy1 h3, div.rowy2 h3 {
+    width: 90%;
+}
+div.rowy1 {
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+div.box1 {
+    float: left;
+    width: 25%;
+}
+div.box2 {
+    float: left;
+    width: 25%;
+}
+div.box3 {
+    float: left;
+    width: 25%;
+}
+div.box4 {
+    float: left;
+    width: 25%;
+}
+
+div.box5 {
+    float: left;
+    width: 25%;
+}
+div.box6 {
+    float: left;
+    width: 25%;
+}
+div.box7 {
+    float: left;
+    width: 25%;
+}
+div.box8 {
     float: left;
     width: 25%;
 }
