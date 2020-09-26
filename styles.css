@@ -169,7 +169,7 @@ li.empty:hover {
 div.bnav {
     display: flex;
     align-items: left;
-    background-color: #003F87;
+    background-image: linear-gradient(to right, #00008b, #0000c6, #0202ff, #3d3dff);
     color: white;
     width: 100%;
     font-size: 14px;
