@@ -224,6 +224,69 @@ div.slides p {
     text-align: center;
     overflow: hidden;
 }
+
+/************************************************************/
+/********************* SHOP SECTION ************************/
+
+.slidery {
+    width: 97%;
+    margin-left: 26px;
+    text-align: center;
+    overflow: hidden;
+    padding-left: 10px;
+}
+.slidery .slides > div {
+    scroll-snap-align: start;
+    flex-shrink: 0;
+    width: 215px;
+    height: 260px;
+    margin-right: 50px;
+    background: #eee;
+    transform-origin: center center;
+    transform: scale(1);
+    transition: transform 0.5s;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+.slidery .slides p {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 16px !important;
+    font-weight: 600;
+}
+
+.sliderx .slides > div {
+    scroll-snap-align: start;
+    flex-shrink: 0;
+    width: 250px;
+    height: 300px;
+    margin-right: 50px;
+    border-radius: 10px;
+    background: #eee;
+    transform-origin: center center;
+    transform: scale(1);
+    transition: transform 0.5s;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+  }
+.sliderx {
+    text-align: center;
+    overflow: hidden;
+    margin-left: 45px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.sliderx .slides p {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 16px !important;
+    font-weight: 600;
+}
+
+/**********************************************************/
+/**********************************************************/
 .slides {
     display: flex;
     overflow-x: auto;
@@ -382,7 +445,6 @@ div.img h1 {
     transform: translate(-50%, -50%);
     color: white;
     font-size: 42px;
-    
 }
 div.img p {
     text-align: left;
@@ -556,6 +618,84 @@ div.box8 {
     width: 25%;
 }
 
+
+/**************************************************************************/
+/****************************** SHOP PAGE SECTION ************************/
+/************************************************************************/
+#main div.isp h1 {
+    position: absolute;
+    top: 310px;
+    left: 50px;
+    right: 30%;
+    width: 700px;
+    font-size: 68px;
+    color: white;
+}
+div.content1, div.content2, div.content3 {
+    padding-left: 20px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+div.content1 {
+    margin-top: 20px;
+}
+div.poster {
+    float: left;
+    width: 20%;
+}
+div.kit {
+    float: left;
+    width: 80%;
+}
+p.kitp {
+    width: 98%;
+    padding-left: 35px;
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 150%;
+    margin-bottom: 168px;
+}
+div.kit h1 {
+    padding-left: 35px;
+    margin-bottom: 10px;
+}
+div.equip {
+    float: left;
+    width: 80%;
+    padding-left: 20px;
+}
+div.equip h1 {
+    padding-left: 35px;
+    margin-bottom: 10px;
+}
+p.row {
+    width: 98%;
+    padding-left: 35px;
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 145%;
+}
+img.rower {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+div.rgift {
+    float: left;
+    width: 80%;
+}
+p.giftow {
+    width: 98%;
+    padding-left: 35px;
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 145%;
+    margin-bottom: 105px;
+}
+div.rgift h1 {
+    padding-left: 35px;
+    margin-bottom: 10px;
+}
 
 /*********************************************************************/
 /********************* Media Queries SECTION ************************/
