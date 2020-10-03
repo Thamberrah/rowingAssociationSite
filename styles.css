@@ -700,8 +700,149 @@ div.rgift h1 {
 /***************************************************************************/
 /****************************** CONTACT US SECTION ************************/
 /*************************************************************************/
+div.maincontent {
+    overflow: hidden;
+    margin-top: 5px;
+}
+div.maincontent p {
+    line-height: 145%;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+div.maincontent h1, h2 {
+    font-family: sans-serif;
+}
+
+div.contact {
+    float: left;
+    width: 50%;
+    padding-left: 20px;
+}
+div.address, div.hour, div.no {
+    margin-top: 15px;
+}
+div.address h2, div.hour h2, div.no h2 {
+    font-weight: 600;
+}
 
 
+div.message {
+    float: left;
+    width: 50%;
+}
+div.message h1 {
+    text-align: center;
+}
+div.contact-form {
+    margin-top: 33px;
+}
+.form-control {
+    width: 98% !important;
+    height: 100px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 1px solid gray;
+    color: #000000;
+    font-size: 16px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+form .submit {
+    border-color: transparent;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 18px;
+}
+form .submit:hover {
+    background-color: #f44336;
+    cursor: pointer;
+}
+b.name, b.email {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+textarea.form-control {
+    font-family: sans-serif;
+    width: 630px;
+}
+button.send {
+    height: 40px;
+    font-size: 18px;
+    width: 98%;
+}
+input.name, input.email {
+    width: 98%;
+    padding: 5px 0 5px 5px;
+}
+
+div.morecontent {
+    overflow: hidden;
+}
+div.morecontent h1 {
+    padding-left: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+button.view {
+    width: 50%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    margin-left: 85px;
+    margin-top: 10px;
+    height: 30px;
+}
+button.po {
+    margin-top: 10px;
+}
+button.str {
+    margin-top: 35px;
+}
+
+div.govern {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+    padding-right: 10px;
+    font-size: 18px;
+    font-family: sans-serif;
+    line-height: 140%;
+}
+
+div.brand {
+    float: left;
+    width: 25%;
+    padding-right: 10px;
+    font-size: 18px;
+    font-family: sans-serif;
+    line-height: 140%;
+}
+div.pol {
+    float: left;
+    width: 25%;
+    padding-right: 10px;
+    font-size: 18px;
+    font-family: sans-serif;
+    line-height: 140%;
+}
+div.strat {
+    float: left;
+    width: 25%;
+    padding-right: 20px;
+    font-size: 18px;
+    font-family: sans-serif;
+    line-height: 140%;
+}
+div.govern p, div.brand p, div.pol p, div.strat p {
+    margin-top: 10px;
+}
 
 /*********************************************************************/
 /********************* Media Queries SECTION ************************/
