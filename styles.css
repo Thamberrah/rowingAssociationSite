@@ -347,7 +347,6 @@ div.clubs {
     padding-right: 11px;
     font-size: 25px;
     font-weight: 600;
-    font-family: sans-serif;
 }
 div.regatta {
     float: left;
@@ -863,5 +862,57 @@ div.govern p, div.brand p, div.pol p, div.strat p {
         font-size: 16px;
     }
 
+}
 
+@media only screen and (max-width: 1024px) {
+    div.navi-container {
+        width: 70%;
+    }
+    div.logo {
+        width: 30%;
+    }
+    img.team, div.news, .slider {
+        margin-left: 10px;
+    }
+    div.news {
+        height: 260px;
+    }
+    div.desc p {
+        font-size: 14px;
+    }
+    div.story {
+        margin-left: 10px;
+    }
+    div.elder {
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    div.searchbar {
+        display: none;
+    }
+    div.logo {
+        width: 50%;
+    }
+    div.navi-container {
+        width: 50%;
+    }
+    div.socials {
+        margin-left: 25px;
+    }
+    div.clubs, div.regatta, div.rowathon {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    div.elder {
+        margin-top: 0;
+        width: 100%;
+    }
+    div.desc {
+        width: 100%;
+    }
+    div.story {
+        width: 100%;
+    }
 }
