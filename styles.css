@@ -400,7 +400,7 @@ div.elder {
 /*********************************************************************/
 div.footer {
     width: 100%;
-    height: 60px;
+    height: 100px;
     background-color: #00008b;
     margin-top: 20px;
 }
@@ -888,7 +888,7 @@ div.govern p, div.brand p, div.pol p, div.strat p {
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 950px) {
     div.searchbar {
         display: none;
     }
@@ -912,7 +912,70 @@ div.govern p, div.brand p, div.pol p, div.strat p {
     div.desc {
         width: 100%;
     }
-    div.story {
+    ul li {
+        width: 120px;
+    }
+    li.rowing {
+        width: 130px;
+    }
+    div.subheading, div.story {
+        overflow: hidden;
+    }
+}
+@media only screen and (max-width: 768px) {
+    div.socials {
+        display: none;
+    }
+    li.rowing {
         width: 100%;
     }
+    ul li {
+        width: 100%;
+        text-align: center;
+    }
+    nav.nav {
+        margin: 0 auto;
+    }
+    div.slider {
+        margin-left: 1px;
+    }
+}
+@media only screen and (max-width: 540px) {
+    img.team, div.news, .slider{
+        margin-left: 0;
+    }
+    div.story {
+        margin-left: 2px;
+    }
+    div.subheading p {
+        text-align: center;
+    }
+    img.team {
+        height: 200px;
+    }
+    div.logo {
+        width: 100%;
+    }
+    div.navi-container {
+        overflow: hidden;
+        width: 100%;
+        padding-bottom: 3px;
+        text-align: center !important;
+    }
+
+    .slides > div {
+        width: 260px;
+        height: 275px;
+    }
+    .slides img {
+        width: 260px;
+        height: 200px;
+    }
+    #slides-1 {
+        margin-left: 20px;
+    }
+    #slides-10 {
+        margin-right: 30px;
+    }
+
 }
