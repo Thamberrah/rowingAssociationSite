@@ -941,6 +941,9 @@ div.govern p, div.brand p, div.pol p, div.strat p {
     }
 }
 @media only screen and (max-width: 540px) {
+    ul li.empty {
+        display: none;
+    }
     img.team, div.news, .slider{
         margin-left: 0;
     }
@@ -950,8 +953,12 @@ div.govern p, div.brand p, div.pol p, div.strat p {
     div.subheading p {
         text-align: center;
     }
+    div.desc p {
+        line-height: 130%;
+    }
     img.team {
         height: 200px;
+        width: 100%;
     }
     div.logo {
         width: 100%;
