@@ -926,6 +926,9 @@ div.govern p, div.brand p, div.pol p, div.strat p {
     div.socials {
         display: none;
     }
+    nav ul {
+        display: block;
+    }
     li.rowing {
         width: 100%;
     }
