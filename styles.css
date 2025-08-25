@@ -400,7 +400,7 @@ div.elder {
 /*********************************************************************/
 div.footer {
     width: 100%;
-    height: 100px;
+    height: 110px;
     background-color: #00008b;
     margin-top: 20px;
     padding-top: 20px;
@@ -436,14 +436,7 @@ a {
 /******************************************************************/
 /********************* Main image SECTION ************************/
 /****************************************************************/
-div.img h1 {
-    position: absolute;
-    bottom: 75%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 42px;
-}
+
 div.img p {
     text-align: left;
     color: black;
@@ -460,11 +453,13 @@ div.boxes {
     margin-top: 15px;
     overflow: hidden;
     font-family: sans-serif;
+    padding: 0 3%;
 }
 .row1 img, .row2 img {
     margin-left: auto;
     margin-right: auto;
     display: block;
+    width: 99%;
 }
 div.boxes h1 {
     font-size: 30px;
@@ -473,7 +468,6 @@ div.boxes h1 {
 }
 div.boxes p {
     line-height: 130%;
-    width: 800px;
     font-size: 16px;
     font-weight: 200;
 }
@@ -484,35 +478,28 @@ div.row1, div.row2 {
     overflow: hidden;
 }
 
+.row1 h1, .row1 p, .row2 h1, .row2 p {
+    padding-left: 6px;
+}
+
 div.camp {
     float: left;
     width: 50%;
-    padding-left: 20px;
-}
-div.camp h1, div.camp p {
-    padding-left: 66px;
 }
 div.sport {
     float: left;
     width: 50%;
 }
-div.sport h1, div.sport p {
-    padding-left: 75px;
-}
+
+
+
 div.women {
     float: left;
     width: 50%;
-    padding-left: 20px;
-}
-div.women h1, div.women p {
-    padding-left: 67px;
 }
 div.compete {
     float: left;
     width: 50%;
-}
-div.compete h1, div.compete p {
-    padding-left: 75px;
 }
 
 
@@ -985,6 +972,14 @@ div.govern p, div.brand p, div.pol p, div.strat p {
     }
     #slides-10 {
         margin-right: 30px;
+    }
+
+    div.footer {
+        margin-top: 0;
+        padding-top: 0;
+    }
+    .rightcontent {
+        padding-right: 5px;
     }
 
 }
