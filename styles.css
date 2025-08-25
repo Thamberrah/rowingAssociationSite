@@ -611,15 +611,7 @@ div.box8 {
 /**************************************************************************/
 /****************************** SHOP PAGE SECTION ************************/
 /************************************************************************/
-#main div.isp h1 {
-    position: absolute;
-    top: 310px;
-    left: 50px;
-    right: 30%;
-    width: 700px;
-    font-size: 68px;
-    color: white;
-}
+
 div.content1, div.content2, div.content3 {
     padding-left: 20px;
     overflow: hidden;
@@ -628,59 +620,30 @@ div.content1, div.content2, div.content3 {
 div.content1 {
     margin-top: 20px;
 }
-div.poster {
-    float: left;
-    width: 20%;
-}
-div.kit {
-    float: left;
-    width: 80%;
-}
-p.kitp {
-    width: 98%;
-    padding-left: 35px;
-    font-size: 20px;
-    font-family: sans-serif;
-    line-height: 150%;
-    margin-bottom: 168px;
-}
+
 div.kit h1 {
     padding-left: 35px;
     margin-bottom: 10px;
 }
-div.equip {
-    float: left;
-    width: 80%;
-    padding-left: 20px;
-}
+
 div.equip h1 {
     padding-left: 35px;
     margin-bottom: 10px;
+    margin-top: 3%;
 }
-p.row {
-    width: 98%;
-    padding-left: 35px;
+p.row, p.giftow, p.kitp {
+    padding: 0 5% 0 2%;
     font-size: 20px;
     font-family: sans-serif;
     line-height: 145%;
+    margin-bottom: 2%;
 }
 img.rower {
     margin-left: auto;
     margin-right: auto;
     display: block;
 }
-div.rgift {
-    float: left;
-    width: 80%;
-}
-p.giftow {
-    width: 98%;
-    padding-left: 35px;
-    font-size: 20px;
-    font-family: sans-serif;
-    line-height: 145%;
-    margin-bottom: 105px;
-}
+
 div.rgift h1 {
     padding-left: 35px;
     margin-bottom: 10px;
